@@ -1,3 +1,13 @@
+* {
+    font-family: Pacifico;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
 td, table {
     border: solid black 2px;
     text-align: center;
@@ -5,7 +15,7 @@ td, table {
 
 button {
     height: 40px;
-    width: 200px;
+    width: 60%;
     border: none;
     background-color: greenyellow;
     font-size: 14px;
@@ -28,6 +38,11 @@ div {
 }
 
 .mark {
-    justify-content: end;
+    justify-content: space-around;
     flex-direction: row;
+    align-items: center;
+}
+
+.summary {
+    margin: 10px;
 }
